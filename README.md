@@ -3,9 +3,9 @@ A Github repository for hosting web content needed by my mods.
 
 ## Find my content on
 <p align="center">
-  <a href="https://discord.gg/AeSbNgvc7f"><img src="https://i.imgur.com/YnDoeHs.png" alt="Discord"></a>
   <a href="https://modrinth.com/user/MrJulsen"><img src="https://i.imgur.com/uLIB4gb.png" alt="CurseForge"></a>
   <a href="https://www.curseforge.com/members/mrjulsen/projects"><img src="https://i.imgur.com/XZYlGVF.png" alt="Modrinth"></a>
+  <a href="https://discord.gg/AeSbNgvc7f"><img src="https://i.imgur.com/YnDoeHs.png" alt="Discord"></a>
 </p>
 
 
