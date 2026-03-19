@@ -16,7 +16,7 @@ A Maven repository where all my mods with a public api are published. Add the fo
 repositories {
     maven {
         name = "MrJulsen's Mod Resources"
-        url = "https://raw.githubusercontent.com/MisterJulsen/modsrepo/main/maven/"
+        url = "https://raw.githubusercontent.com/MisterJulsen/mod-resources/main/maven/"
     }
 }
 ```
