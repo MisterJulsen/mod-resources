@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen",
+    "module": "GitHubTestMod-fabric",
+    "version": "1.20.1-beta-1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
+          "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
+          "size": 4731,
+          "sha512": "612b0964ea5e1e0ca5cf53704a100717ffcb89cd68a60cd2cad4e2bd1a89550ee5885404d9be3e6a5a609d39127424801e0e393eeb0b7c980fa6555ed2f9e6fb",
+          "sha256": "00ed3f18ad92fa4e7a1010811c8a759667319c86222ec8fbed566a2127037858",
+          "sha1": "fce36cd3ed100b073380d945965501288c7e718c",
+          "md5": "68dab14a5fad2950c6c7976f0787aa70"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.2.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
+          "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
+          "size": 4731,
+          "sha512": "612b0964ea5e1e0ca5cf53704a100717ffcb89cd68a60cd2cad4e2bd1a89550ee5885404d9be3e6a5a609d39127424801e0e393eeb0b7c980fa6555ed2f9e6fb",
+          "sha256": "00ed3f18ad92fa4e7a1010811c8a759667319c86222ec8fbed566a2127037858",
+          "sha1": "fce36cd3ed100b073380d945965501288c7e718c",
+          "md5": "68dab14a5fad2950c6c7976f0787aa70"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-sources.jar",
+          "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-sources.jar",
+          "size": 2701,
+          "sha512": "b554b2d63ae8367a88a02d30988c7d3ef9a8c2e0674cef6cdc53d68621c327378766c1c3ef229b54b468dffb0b50ea4ce5adbf391b0a1f3ee8a4f90715ce43e1",
+          "sha256": "e300eb8471aff868f89d24ca5ecbbbece320f2d0b9466349267a20de2db34e96",
+          "sha1": "ec13e4c8ed2987b55e49b512ae6fddcc5dfb3cbd",
+          "md5": "4ccdc73b033c338e8bd9284e68fb3170"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-javadoc.jar",
+          "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-javadoc.jar",
+          "size": 98790,
+          "sha512": "e75682bcebd91c255e71d22790cb68156a3b15519e35fe861aaaf1f2e507cca72296a7e5a52994f6578fa18359c7361a194ff4e8c305e434194e0f5cca20dc8e",
+          "sha256": "b396b1a3f069313d381caa16967e125ded7acb31bc9aebc253468587f914330f",
+          "sha1": "04c286f986d6271f60145e998d393d5527a9ed6d",
+          "md5": "d08658154a0aa4be8a13dd3a3e6e34c3"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-dev-shadow.jar",
+          "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-dev-shadow.jar",
+          "size": 4321,
+          "sha512": "2777191f77e2e4fdb5d51d64ee1c7336def227f4770f79f4923e3601d1681ae2ee8619e262c7f645c5f22b294f2665fac91030c640dfb47c212ede5a43b69d5a",
+          "sha256": "1a7d62f04f1334b4a2950ca1d989fe1ec88094c702aa8ed89ad7fb0e747db0d9",
+          "sha1": "162e13fe187637e1e800f004103266db55674b31",
+          "md5": "e0ddb051eab1ca19b7e22d7c0bad506c"
+        }
+      ]
+    }
+  ]
+}
