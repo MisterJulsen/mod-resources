@@ -27,11 +27,11 @@
         {
           "name": "GitHubTestMod-forge-1.20.1-beta-1.2.3.jar",
           "url": "GitHubTestMod-forge-1.20.1-beta-1.2.3.jar",
-          "size": 4216,
-          "sha512": "f51a1cd84b04e1b1e914285eb22bb9a4a26b74f31b34b54db1fe2eb4bd643a2c2dd3e2d07700b258593787ac22e65be48c1b3940ca3d6b4ef4223fe7b657f7fb",
-          "sha256": "cce6849daec782b53dda7ac7eed3b54c766280d3570d8aef616d35a685797d99",
-          "sha1": "c62af1665c743e5a5dca23b1171d2b401da90424",
-          "md5": "1977fd9fac58ed2b86f8d8ead0e8bd18"
+          "size": 4218,
+          "sha512": "96f3012edab1f364ac6fddbaacc3fa89fcae4c5f6f76e0f94b3203d9420db0236014a6dd33484efb249828745ea1acd87bfde316b0735b5629a772894d7613ba",
+          "sha256": "1ca408245b08dc8faf2ef839bc4c7abcbf5a5e746df042af105ba7e529e0dd86",
+          "sha1": "a58225e968343ca963fceb98f508a5e1e5405b4c",
+          "md5": "2f43ba98dbbd889ccb474347aaed921f"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "GitHubTestMod-forge-1.20.1-beta-1.2.3.jar",
           "url": "GitHubTestMod-forge-1.20.1-beta-1.2.3.jar",
-          "size": 4216,
-          "sha512": "f51a1cd84b04e1b1e914285eb22bb9a4a26b74f31b34b54db1fe2eb4bd643a2c2dd3e2d07700b258593787ac22e65be48c1b3940ca3d6b4ef4223fe7b657f7fb",
-          "sha256": "cce6849daec782b53dda7ac7eed3b54c766280d3570d8aef616d35a685797d99",
-          "sha1": "c62af1665c743e5a5dca23b1171d2b401da90424",
-          "md5": "1977fd9fac58ed2b86f8d8ead0e8bd18"
+          "size": 4218,
+          "sha512": "96f3012edab1f364ac6fddbaacc3fa89fcae4c5f6f76e0f94b3203d9420db0236014a6dd33484efb249828745ea1acd87bfde316b0735b5629a772894d7613ba",
+          "sha256": "1ca408245b08dc8faf2ef839bc4c7abcbf5a5e746df042af105ba7e529e0dd86",
+          "sha1": "a58225e968343ca963fceb98f508a5e1e5405b4c",
+          "md5": "2f43ba98dbbd889ccb474347aaed921f"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "GitHubTestMod-forge-1.20.1-beta-1.2.3-sources.jar",
           "url": "GitHubTestMod-forge-1.20.1-beta-1.2.3-sources.jar",
           "size": 2063,
-          "sha512": "c0fdbed1c261635eb0935cd1303b51ea5e242fbfac703e43411a01a61496278ce47794b37cd139bb6aa07335c03d42b90b06086a1fa9ea61f27ffea9d6b460ac",
-          "sha256": "f2a13cb94c3e67fc0108552994c560f0bf46fdd4026c805ca0c1103ab1c33a42",
-          "sha1": "e90681194b4166bac3f90fbbd903f25be702f2f2",
-          "md5": "c1c2aac7023e711c74051c2338766a02"
+          "sha512": "0766a9cdce036e272ba3fc301a7cfc2dbed0f40661468df5f4918a9653e3d8dd351109f14514e8dca76e7789dc9ebface5c50bd0bad866f5687dcdff6ada8053",
+          "sha256": "53fc2cc4bd6795087c75319d5d2abecc3b3e6f308bc500295ad7db08569d2428",
+          "sha1": "6fd1e4e3481d088af87cf8d2cad717b92d9de6f0",
+          "md5": "76d6106ae91871d497cb2d3429817516"
         }
       ]
     },
@@ -98,10 +98,10 @@
           "name": "GitHubTestMod-forge-1.20.1-beta-1.2.3-javadoc.jar",
           "url": "GitHubTestMod-forge-1.20.1-beta-1.2.3-javadoc.jar",
           "size": 91072,
-          "sha512": "463bbbbe1c07a74edf6cffe79c5f11838574ae0c80f04d97c09cc41bbc49a5c37e1bba71d5509499d3704a389ecab01a8dba6318001ea22ee0edddf2f0263aaf",
-          "sha256": "fbc6f7854f26b386458640e449fdb57b1878c9af55c3025533626f8da389fc33",
-          "sha1": "90a06eb92321c06d3fee967a58b2017a29c03f9b",
-          "md5": "f1cf48077d5388acb0acd462ceb5f3e9"
+          "sha512": "5c3139529045fe93cf22d548911e93ca05818e8b6de973e3285c4604b8364c216d165e0262761468be0954d5eb128aeb9ad6a6b830a3d3651d854d7bca295cb7",
+          "sha256": "4f19bf6047032598110af0cba0c20c856a9900c2f0dd97665b29bece14b689dc",
+          "sha1": "71eb8668581b61c6c6db185ba18b4c16fb08e361",
+          "md5": "d473eb9ec52547f4a1aaa81cff0a342f"
         }
       ]
     },
@@ -117,11 +117,11 @@
         {
           "name": "GitHubTestMod-forge-1.20.1-beta-1.2.3-dev-shadow.jar",
           "url": "GitHubTestMod-forge-1.20.1-beta-1.2.3-dev-shadow.jar",
-          "size": 4010,
-          "sha512": "410ba29653fa34d3502abc6bfb9358847a9d6b970e8162d9b10e37ba093a687b6ca6d9544579f9dd8017ddda200fe2746450b13e86c5c61e505047572b26cded",
-          "sha256": "8ceab536cde0877cfe92f3d021e96cbe67a58c67e10e0c4a30f30f3a404fa073",
-          "sha1": "8268088d7893a97ae46f4490e97e3781c42b3fc4",
-          "md5": "9b32ece15167e89b4a1b5ecace62436e"
+          "size": 4012,
+          "sha512": "2cb13e44917a51e26277a88cd47ce34b39b226751276b56db3bb39b76a6b0fc98f3ff06930e697976edf8b10f784c5d442f5fc68fc1ced2f66311d804ee2f078",
+          "sha256": "bdffc671a757717d29d05bf58198d48a5f54e458a2ab2d2697cc32e9ed4b3179",
+          "sha1": "f6e66381db39c9500dab35f4f003db7f64a701d7",
+          "md5": "76c7aacdac6052c19506f5e76d555379"
         }
       ]
     }

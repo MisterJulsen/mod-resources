@@ -27,11 +27,11 @@
         {
           "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
           "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
-          "size": 4731,
-          "sha512": "612b0964ea5e1e0ca5cf53704a100717ffcb89cd68a60cd2cad4e2bd1a89550ee5885404d9be3e6a5a609d39127424801e0e393eeb0b7c980fa6555ed2f9e6fb",
-          "sha256": "00ed3f18ad92fa4e7a1010811c8a759667319c86222ec8fbed566a2127037858",
-          "sha1": "fce36cd3ed100b073380d945965501288c7e718c",
-          "md5": "68dab14a5fad2950c6c7976f0787aa70"
+          "size": 4732,
+          "sha512": "2461cacd611e9096b6c7060cc13adae23a3221b71ede1fa52dc31ebf8cfcb1515a3800ce7f07c8cce38c2e822ef3b897a38fd1b610969e2aea3cddf1b6db01ea",
+          "sha256": "ebde2515e1b43e3a62e0868649b8e5978206dbb169d504144d8091200dec83a7",
+          "sha1": "81b56623daf0dea5625e872a8cb34b3ccbb2abd8",
+          "md5": "8a66ac08b8755ed96b89724b6e94807e"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
           "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3.jar",
-          "size": 4731,
-          "sha512": "612b0964ea5e1e0ca5cf53704a100717ffcb89cd68a60cd2cad4e2bd1a89550ee5885404d9be3e6a5a609d39127424801e0e393eeb0b7c980fa6555ed2f9e6fb",
-          "sha256": "00ed3f18ad92fa4e7a1010811c8a759667319c86222ec8fbed566a2127037858",
-          "sha1": "fce36cd3ed100b073380d945965501288c7e718c",
-          "md5": "68dab14a5fad2950c6c7976f0787aa70"
+          "size": 4732,
+          "sha512": "2461cacd611e9096b6c7060cc13adae23a3221b71ede1fa52dc31ebf8cfcb1515a3800ce7f07c8cce38c2e822ef3b897a38fd1b610969e2aea3cddf1b6db01ea",
+          "sha256": "ebde2515e1b43e3a62e0868649b8e5978206dbb169d504144d8091200dec83a7",
+          "sha1": "81b56623daf0dea5625e872a8cb34b3ccbb2abd8",
+          "md5": "8a66ac08b8755ed96b89724b6e94807e"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-sources.jar",
           "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-sources.jar",
           "size": 2701,
-          "sha512": "b554b2d63ae8367a88a02d30988c7d3ef9a8c2e0674cef6cdc53d68621c327378766c1c3ef229b54b468dffb0b50ea4ce5adbf391b0a1f3ee8a4f90715ce43e1",
-          "sha256": "e300eb8471aff868f89d24ca5ecbbbece320f2d0b9466349267a20de2db34e96",
-          "sha1": "ec13e4c8ed2987b55e49b512ae6fddcc5dfb3cbd",
-          "md5": "4ccdc73b033c338e8bd9284e68fb3170"
+          "sha512": "e0b4e92184900c5c62e5e175565a889b16d531ad47e915baf77b855695d91c8c1c1bc16a70638b2df792a0e0b7a3ae4eefe27b60c1b1565545dfe84366e3de1d",
+          "sha256": "129120da9da8bb6d7672f9311f17e46825b26a67f82a95c73ea9f7ae07e2118c",
+          "sha1": "8e5d457acce7b9e4f137d7a6b3656d0885069634",
+          "md5": "b1451278bfafb347096ced8fecd352d5"
         }
       ]
     },
@@ -112,10 +112,10 @@
           "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-javadoc.jar",
           "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-javadoc.jar",
           "size": 98790,
-          "sha512": "e75682bcebd91c255e71d22790cb68156a3b15519e35fe861aaaf1f2e507cca72296a7e5a52994f6578fa18359c7361a194ff4e8c305e434194e0f5cca20dc8e",
-          "sha256": "b396b1a3f069313d381caa16967e125ded7acb31bc9aebc253468587f914330f",
-          "sha1": "04c286f986d6271f60145e998d393d5527a9ed6d",
-          "md5": "d08658154a0aa4be8a13dd3a3e6e34c3"
+          "sha512": "d6e9d3b84a5a199ca851db23fc9791315662825d1d0e057ae7f6e3e5098423118bef7a16f0f57ed2884d7fc92027871799ba6a28fe190990463f08417d97b6b0",
+          "sha256": "220304d797000405fe499f570b96ba172103557b5189e713fbbc63eb45d535f5",
+          "sha1": "8ba55adcac60e832f6f6ea769c5e508ea1b9bc55",
+          "md5": "b1efe23394f12b6fcc47fb95067ce669"
         }
       ]
     },
@@ -131,11 +131,11 @@
         {
           "name": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-dev-shadow.jar",
           "url": "GitHubTestMod-fabric-1.20.1-beta-1.2.3-dev-shadow.jar",
-          "size": 4321,
-          "sha512": "2777191f77e2e4fdb5d51d64ee1c7336def227f4770f79f4923e3601d1681ae2ee8619e262c7f645c5f22b294f2665fac91030c640dfb47c212ede5a43b69d5a",
-          "sha256": "1a7d62f04f1334b4a2950ca1d989fe1ec88094c702aa8ed89ad7fb0e747db0d9",
-          "sha1": "162e13fe187637e1e800f004103266db55674b31",
-          "md5": "e0ddb051eab1ca19b7e22d7c0bad506c"
+          "size": 4322,
+          "sha512": "00ce533ed24da31cd897c66354a139116b9dfb21fea181a93111e9261b9962174515105810dba65cc87acc093fb0c91b0c3e65c28639aef3b91f4017565ecf5b",
+          "sha256": "3d8aa19d2610af8057b81cbf4c051c6e648e6718a5be02688ab9e8d345d0850f",
+          "sha1": "00d884809243d95fe9e28e9f2bb436668b023989",
+          "md5": "2df8d3163490afd44dc6121fdee0deea"
         }
       ]
     }
