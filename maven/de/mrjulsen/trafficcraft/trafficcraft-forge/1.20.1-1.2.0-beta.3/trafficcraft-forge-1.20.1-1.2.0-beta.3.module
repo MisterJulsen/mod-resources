@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.trafficcraft",
+    "module": "trafficcraft-forge",
+    "version": "1.20.1-1.2.0-beta.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-forge-1.20.1-1.2.0-beta.3.jar",
+          "url": "trafficcraft-forge-1.20.1-1.2.0-beta.3.jar",
+          "size": 4785914,
+          "sha512": "9ba84fdb91db6d085c6d652003487a19ea928dfc8b68cde8e441e63338db94d088698aad8dc6441e2bdc5d520ce047d74c997db0ec5693fddd58cbc22f241f96",
+          "sha256": "d246cbec2dad18a8ffda07297570fb5eb9b243e10fc546301c65b531aaee5df6",
+          "sha1": "62790d346bd6c53428c4eabab4c718fb7b9631e4",
+          "md5": "fa14d81aab2bba102a6abeedb8abc3b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-forge",
+          "version": {
+            "requires": "1.20.1-beta-3.0.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trafficcraft-forge-1.20.1-1.2.0-beta.3.jar",
+          "url": "trafficcraft-forge-1.20.1-1.2.0-beta.3.jar",
+          "size": 4785914,
+          "sha512": "9ba84fdb91db6d085c6d652003487a19ea928dfc8b68cde8e441e63338db94d088698aad8dc6441e2bdc5d520ce047d74c997db0ec5693fddd58cbc22f241f96",
+          "sha256": "d246cbec2dad18a8ffda07297570fb5eb9b243e10fc546301c65b531aaee5df6",
+          "sha1": "62790d346bd6c53428c4eabab4c718fb7b9631e4",
+          "md5": "fa14d81aab2bba102a6abeedb8abc3b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-forge-1.20.1-1.2.0-beta.3-sources.jar",
+          "url": "trafficcraft-forge-1.20.1-1.2.0-beta.3-sources.jar",
+          "size": 4694673,
+          "sha512": "5bdd99eac070618c7b6fa7d859c42c55b241d69875f68a09098e6c0c7c123c3d154cb61a1b1d3a17cbbe7cf31f351ed96f771a1990300f9ff8c383fcb368a186",
+          "sha256": "94e28c33ce7ef5de19f8c3aeab6e0b552c469c477c82224083b3acdabe80d093",
+          "sha1": "f3fd649a9eff9541f6b1065a68a38e7348052997",
+          "md5": "e27082213561c8498d140a19b088de3b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-forge-1.20.1-1.2.0-beta.3-javadoc.jar",
+          "url": "trafficcraft-forge-1.20.1-1.2.0-beta.3-javadoc.jar",
+          "size": 96444,
+          "sha512": "acd7787137e0e52d7a21377a83a80aed31ab5068238230984d7ed5730659d9689080e58bfbc296757faa540f62aac36b52b60c743baadd633ae4b4cc0b7f17a0",
+          "sha256": "5707dc5139f0454edc898804214eb4cf7b4cb0cd2b9ea4775402f7c2187d94ff",
+          "sha1": "fc08bc16e1f2b2472d34f9af773b2b4c18439ab9",
+          "md5": "6cef3d5e7228330b8aa22e1b0c8b530d"
+        }
+      ]
+    }
+  ]
+}

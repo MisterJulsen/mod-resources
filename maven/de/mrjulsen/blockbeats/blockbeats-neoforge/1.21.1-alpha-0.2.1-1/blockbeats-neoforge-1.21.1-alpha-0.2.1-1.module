@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.blockbeats",
+    "module": "blockbeats-neoforge",
+    "version": "1.21.1-alpha-0.2.1-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1.jar",
+          "url": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1.jar",
+          "size": 363770,
+          "sha512": "a98d140902818b822fbe46d24229b9cacaca0158b3c9c665724d61e3b7639480be08243adb963f5d429517d36f3a497fc7b2a83d945161d50e455c2d4c3f49f9",
+          "sha256": "c0834143fcdebd0e5e8ecbdf97ba38109d05b43b528e7a526df5869dad52858d",
+          "sha1": "96fb62cf760091adf6e2f05341c677d028388448",
+          "md5": "bb07c6762632f3890cfd07ddd5a28f90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-neoforge",
+          "version": {
+            "requires": "1.21.1-beta-3.0.23"
+          }
+        },
+        {
+          "group": "de.mrjulsen.dragnsounds",
+          "module": "dragnsounds-neoforge",
+          "version": {
+            "requires": "1.21.1-alpha-0.2.2-1"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux-arm32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux-arm64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-win32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-win64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-osxm1",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-osx64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1.jar",
+          "url": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1.jar",
+          "size": 363770,
+          "sha512": "a98d140902818b822fbe46d24229b9cacaca0158b3c9c665724d61e3b7639480be08243adb963f5d429517d36f3a497fc7b2a83d945161d50e455c2d4c3f49f9",
+          "sha256": "c0834143fcdebd0e5e8ecbdf97ba38109d05b43b528e7a526df5869dad52858d",
+          "sha1": "96fb62cf760091adf6e2f05341c677d028388448",
+          "md5": "bb07c6762632f3890cfd07ddd5a28f90"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-sources.jar",
+          "url": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-sources.jar",
+          "size": 135190,
+          "sha512": "a9e8a5a76aa11b95669e94b2d03f9105421452a15316cbf4b83784b954ef1eba75ea2ee62e8f8e2355ea521d819073e8c024c1d6f95fc87753a7a7610cdb4430",
+          "sha256": "0a5d8a451ef18475f3dc090bc12877e530a26148ff0ff015305874fe52230378",
+          "sha1": "2796353cbed7c2993a96e770b210ab6a83836125",
+          "md5": "3cba179d33823497fc35870246dcbdf8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-javadoc.jar",
+          "url": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-javadoc.jar",
+          "size": 91116,
+          "sha512": "8afe40ee1652f1a7f42bc680e3b93f3338d90afc237f48fbcfffdde0bcce325bc2b5c56c817dad75bc5409d92e45fb0137257739ec748e6f536cae66c832c1bb",
+          "sha256": "f92092640e18fbe748dd928ccef6595a871a7407ab7de33272579ee413e8c49b",
+          "sha1": "a507c4fd18152057aeaaf845a37d75d6cc6da2c8",
+          "md5": "28311df3cb3a47b6428feab0ea015b51"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-dev-shadow.jar",
+          "url": "blockbeats-neoforge-1.21.1-alpha-0.2.1-1-dev-shadow.jar",
+          "size": 358410,
+          "sha512": "261018ec7878214a9f037804b7af597512bf4c19c256cbf57ac5dd158e0ba71b356c92d16dec13d5a51e6af1845c778308cac4a8322fefe74695d2c49d1132e5",
+          "sha256": "37aee1ad3da4aded4858b9eb58464d11f3f4daf0d055335dd75b20f9e2549d4f",
+          "sha1": "29199db239e409d147712a368d75f07d8ce3944b",
+          "md5": "6496fa86b4df57980bc2baeb846c94dd"
+        }
+      ]
+    }
+  ]
+}

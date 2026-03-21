@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.trafficcraft",
+    "module": "trafficcraft-fabric",
+    "version": "1.21.1-beta-1.2.0+3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-fabric-1.21.1-beta-1.2.0+3.jar",
+          "url": "trafficcraft-fabric-1.21.1-beta-1.2.0+3.jar",
+          "size": 5405728,
+          "sha512": "729740ca6cd065365e6b5b921eaeb76e2af49f228f61b2cef3b83eba18c8de1bd32a8d4175bd2efc9333c7b67adfb52cf44c0c8041dc4ad73e6a3d6f1ddd4207",
+          "sha256": "fed92f03de71d0c6b1de616090dda5be2f047c66e6a5aa31d0ba364f51f05226",
+          "sha1": "4410330e7fecd758d4b739156c7a38aa802471ab",
+          "md5": "7653167ab07c09290845514b4a001c3c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.0+1.21"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "21.1.1"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-fabric",
+          "version": {
+            "requires": "1.21.1-beta-3.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trafficcraft-fabric-1.21.1-beta-1.2.0+3.jar",
+          "url": "trafficcraft-fabric-1.21.1-beta-1.2.0+3.jar",
+          "size": 5405728,
+          "sha512": "729740ca6cd065365e6b5b921eaeb76e2af49f228f61b2cef3b83eba18c8de1bd32a8d4175bd2efc9333c7b67adfb52cf44c0c8041dc4ad73e6a3d6f1ddd4207",
+          "sha256": "fed92f03de71d0c6b1de616090dda5be2f047c66e6a5aa31d0ba364f51f05226",
+          "sha1": "4410330e7fecd758d4b739156c7a38aa802471ab",
+          "md5": "7653167ab07c09290845514b4a001c3c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-sources.jar",
+          "url": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-sources.jar",
+          "size": 2963,
+          "sha512": "5b6528aea1ef81df319803120aba481a3304682706cd5ca004091fe7d927193918d78d300bef6e232cb0ca95e2b794f0f650b1ae45483df72e9596bdbe857edb",
+          "sha256": "f1746295a1a27a7b916e1540360ce63bbda8371df7ca327b46c4eaefe0170153",
+          "sha1": "60a69fd5ff40f174b6b7cfbabc1d19dd766db50d",
+          "md5": "f1f4efd0fc4c147901f19c21dcd55443"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-javadoc.jar",
+          "url": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-javadoc.jar",
+          "size": 94776,
+          "sha512": "b32eac0fc4a7f8723d2d917d60e5d8e6336274d717d00d4d3b3e00455efcc64aecf73a831b7865dae1d585f037858db2e9f7d3ae7df488375cd7c114b74805f4",
+          "sha256": "cfcd95f1406f599f3097f4f585bf14268542e36536f153e644d46f5e2be877f3",
+          "sha1": "d207d63adb7163466ca5aefcb19e764362f9739f",
+          "md5": "5c8452bc21b5d6255862957ad09a8bee"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-dev-shadow.jar",
+          "url": "trafficcraft-fabric-1.21.1-beta-1.2.0+3-dev-shadow.jar",
+          "size": 4655460,
+          "sha512": "c79776fceabe25c3ab7465883ca79efe0e92479aa8caffd043e4fe66c4d0c2040b156c1c43903c8a5e4dcf17518add500a6251b0756501c8b0485b2c89528621",
+          "sha256": "90e02af89e6119a3a00058164eae8070e3758c2a1a264f9b74c0f07eefa1f2ab",
+          "sha1": "320b875515b4fe6ccc8fb9a95ad9f5d6f8aec404",
+          "md5": "1a7130499f9fdbb5a5ee69e4e8d54e8b"
+        }
+      ]
+    }
+  ]
+}

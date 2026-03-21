@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.trafficcraft",
+    "module": "trafficcraft-neoforge",
+    "version": "1.21.1-beta-1.2.0+3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3.jar",
+          "url": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3.jar",
+          "size": 4820763,
+          "sha512": "32b0d9483887872c44e5e1c86678047add01fa10a823b7301bc71bb9e73434d5b01c20314d758d507b75794256163e9c37188ef1211d4e04c355b18f89db1c32",
+          "sha256": "91b59889883d2688de95337fd9e6a9b0fb6acccbd3930dbd994dc41e916861f1",
+          "sha1": "bb27115a8f1feb61d5c328b8268be0f3b37649b8",
+          "md5": "245b8b10adb6645df2481758d02ae268"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-neoforge",
+          "version": {
+            "requires": "21.1.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-neoforge",
+          "version": {
+            "requires": "1.21.1-beta-3.0.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3.jar",
+          "url": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3.jar",
+          "size": 4820763,
+          "sha512": "32b0d9483887872c44e5e1c86678047add01fa10a823b7301bc71bb9e73434d5b01c20314d758d507b75794256163e9c37188ef1211d4e04c355b18f89db1c32",
+          "sha256": "91b59889883d2688de95337fd9e6a9b0fb6acccbd3930dbd994dc41e916861f1",
+          "sha1": "bb27115a8f1feb61d5c328b8268be0f3b37649b8",
+          "md5": "245b8b10adb6645df2481758d02ae268"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-sources.jar",
+          "url": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-sources.jar",
+          "size": 3792,
+          "sha512": "721ffa3238132e707fdc51bcb58a5ce2e03211cc536a665faec4b8036a645e04a9f927af83ba479cf4f7fd515492eb8abbedee1067443d30bf7423802ebebac6",
+          "sha256": "2db9134e1a7374a8b42173c40bb2ce1cf537fb9435066b4036d0be811252c2ee",
+          "sha1": "b87694cbcdb662824665b159717dd681298b9a6f",
+          "md5": "baf4c6e32539ede1ae9db6752a870658"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-javadoc.jar",
+          "url": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-javadoc.jar",
+          "size": 99841,
+          "sha512": "84b0edf70ccaea4f0db01f2c47e7ecdb2da3f2d012a6d6e0494bbbd84368fda455b74327839b372aff725232a50f2c4845b7726b8d1371bc5edc35019ff33759",
+          "sha256": "008755aac0be7e5921c33d53d6b81b44b0ea502320e8ef48c0fb500385bf6de4",
+          "sha1": "85732afe05c8be938450e03c06eee9873ec7d479",
+          "md5": "b1b72b55b849a1d8516016e0bd9202ef"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-dev-shadow.jar",
+          "url": "trafficcraft-neoforge-1.21.1-beta-1.2.0+3-dev-shadow.jar",
+          "size": 4656617,
+          "sha512": "3c8b8494f5ef6bcacbd49d3db2dc23148a609ed7f1bd70b6458b92ac83bb7c7331ac8952ffe64eaab70bf6491bd94c0bbb231b9ac5a8b7327b6e58f1b0272e72",
+          "sha256": "dcca83be799b65e6d93f59921a3537421c7c4478027724ad42b1c67fdae9ee55",
+          "sha1": "6b8226f88f1d6a0f62eded26f6a65f3f0532c1fc",
+          "md5": "a66012069a69a975fa4d31701438dacc"
+        }
+      ]
+    }
+  ]
+}

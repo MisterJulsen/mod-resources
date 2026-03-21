@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.crn",
+    "module": "createrailwaysnavigator-fabric",
+    "version": "1.20.1-alpha-0.9.0-C6+2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2.jar",
+          "size": 2021138,
+          "sha512": "95d699b2fa32b0060429430a48e3f28874eddeb6c67238e92906ba03bce82c1429daea805898c116f68e243a198439a1c6a347178393f9f0198aa1eee0cfab83",
+          "sha256": "291f435c7b2765a3b96dbdfe35f9541876ed3fd06127355ab4e37b421d23e404",
+          "sha1": "fb2b9bc918399d2d560830469189c4e580e249a0",
+          "md5": "4a81c67d1436a2514b908587e7429abe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.90.4+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-fabric",
+          "version": {
+            "requires": "1.20.1-beta-3.0.21"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.20.1",
+          "version": {
+            "requires": "6.0.7.0+mc1.20.1-build.1716"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2.jar",
+          "size": 2021138,
+          "sha512": "95d699b2fa32b0060429430a48e3f28874eddeb6c67238e92906ba03bce82c1429daea805898c116f68e243a198439a1c6a347178393f9f0198aa1eee0cfab83",
+          "sha256": "291f435c7b2765a3b96dbdfe35f9541876ed3fd06127355ab4e37b421d23e404",
+          "sha1": "fb2b9bc918399d2d560830469189c4e580e249a0",
+          "md5": "4a81c67d1436a2514b908587e7429abe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-sources.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-sources.jar",
+          "size": 29393,
+          "sha512": "8a451b87ade37d4c0a3c13f01266f1c9c1b8657258fca0a9ae163bd4d502205e9a6ecb13c10e6d93b7c48f38fcb8796e02a5caafafe0611647e9683970591958",
+          "sha256": "0a6bdb2e931d6fbe3aefcbe78d6884e27ed4ddf85e64f62442801f1514e91c3a",
+          "sha1": "301ed4c60e43411b8f7117d9f9392739ce1f55e4",
+          "md5": "13c6b4164a66d393a2505c8ed756ff6d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-javadoc.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-javadoc.jar",
+          "size": 128418,
+          "sha512": "432cee3fab41bc3560fe6e85f402e507b919138d910e098a9725dac86df13edd3f7dd7a8312c49b1e4ccb993974f60cf37311e1e19fbfd546a2e24a463029d55",
+          "sha256": "8e99968ca35efe7798dffc30e91727050c1c2d0bf403e7f42140abff0f217dae",
+          "sha1": "9b814953b94e8124c3cfb989a60a9118a789df60",
+          "md5": "121c956e4fadde75fdf166957cb6487b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-dev-shadow.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-alpha-0.9.0-C6+2-dev-shadow.jar",
+          "size": 1995076,
+          "sha512": "f39a3111e9aebbd31dfa587aa6181976d61ae7b83b2e2683b5bcada707756ef7075d81529c204b8af216aad546954addfbcdb7d9b8e0c1ee165211bb98003dd4",
+          "sha256": "618296d55c7d655b1698151e79ef31619142ac498156d3e854c8fb9c8e0b37e0",
+          "sha1": "c54caa05fb59e387c685a56186405bf53e225014",
+          "md5": "fcdab871acc9114f978d7fd936edf791"
+        }
+      ]
+    }
+  ]
+}

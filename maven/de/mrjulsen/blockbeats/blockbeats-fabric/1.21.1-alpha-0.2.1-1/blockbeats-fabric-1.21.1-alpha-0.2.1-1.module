@@ -1,0 +1,227 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.blockbeats",
+    "module": "blockbeats-fabric",
+    "version": "1.21.1-alpha-0.2.1-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "blockbeats-fabric-1.21.1-alpha-0.2.1-1.jar",
+          "url": "blockbeats-fabric-1.21.1-alpha-0.2.1-1.jar",
+          "size": 884906,
+          "sha512": "007deaf7e1f267662d0703f7e497e1ef1f1d081c1948c95b255cdf9ba1791aecc7d5837fa4141147ee11e3f9d6ef53d9a8d311f23257b924c617e06a73abd114",
+          "sha256": "352aa51494cc7d122637666a0514956b3e7610d92dd6d2a424f68edcf21f4180",
+          "sha1": "dcf16b78ff714746a59c901e1b9507b630edf872",
+          "md5": "da90b774eb64e7dde4680f98740142ae"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.6+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-fabric",
+          "version": {
+            "requires": "1.21.1-beta-3.0.23"
+          }
+        },
+        {
+          "group": "de.mrjulsen.dragnsounds",
+          "module": "dragnsounds-fabric",
+          "version": {
+            "requires": "1.21.1-alpha-0.2.2-1"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-core",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux-arm32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-linux-arm64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-win32",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-win64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-osxm1",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "ws.schild",
+          "module": "jave-nativebin-osx64",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "eu.pb4",
+          "module": "placeholder-api",
+          "version": {
+            "requires": "2.4.1+1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blockbeats-fabric-1.21.1-alpha-0.2.1-1.jar",
+          "url": "blockbeats-fabric-1.21.1-alpha-0.2.1-1.jar",
+          "size": 884906,
+          "sha512": "007deaf7e1f267662d0703f7e497e1ef1f1d081c1948c95b255cdf9ba1791aecc7d5837fa4141147ee11e3f9d6ef53d9a8d311f23257b924c617e06a73abd114",
+          "sha256": "352aa51494cc7d122637666a0514956b3e7610d92dd6d2a424f68edcf21f4180",
+          "sha1": "dcf16b78ff714746a59c901e1b9507b630edf872",
+          "md5": "da90b774eb64e7dde4680f98740142ae"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-sources.jar",
+          "url": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-sources.jar",
+          "size": 657593,
+          "sha512": "71d69bf8d87e6cc22e9ef8cfef017bcabba4b1be10b35b494ed0b62e59d8a11d7dc5ab86d260d4210237b15cfa62245d454f60f2369d997909893fce082786dc",
+          "sha256": "39caa6452ac1d4c657cbc41785413962d47513cc741f0c1170310f02f5088271",
+          "sha1": "ff9e7eda99c05bb23979c1e4a234c6af1cf2fdc9",
+          "md5": "574aaa4a0049bb5145decf666ddd76e7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-javadoc.jar",
+          "url": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-javadoc.jar",
+          "size": 91599,
+          "sha512": "2c9111b92a632f26e763b21b7051c1a75854f8978d4cd086892ab93cbce3800819d76d3e823c01b949c61094d39f52371d5787c9df1dccbee0bc787d2bf769d0",
+          "sha256": "43d08b0246260c86b2ffd85a5549304f104fbed01cf05edf97bc07368ca6d0e3",
+          "sha1": "7cf2203cf3624ccf3e538c04e2dfdee21c0b3315",
+          "md5": "024688dea2401c0876d6cf6fdd0367aa"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-dev-shadow.jar",
+          "url": "blockbeats-fabric-1.21.1-alpha-0.2.1-1-dev-shadow.jar",
+          "size": 880593,
+          "sha512": "76a823a0d99984d8c979d69bbda789868bf16e7401eb0dfc25951af03489be471d9e354602467604d0b4614d5e6275ba1ff1796ab4ff86725dd871539bb664c1",
+          "sha256": "3bca1410454b5ba5656680d09d9943d61b85716c0e1e91ff05fc2134fb8b9434",
+          "sha1": "8e45fb61b114e39f94e5d75771b41b1962293fa0",
+          "md5": "b4bf396e5b3a0c761f32dae1b4835414"
+        }
+      ]
+    }
+  ]
+}
