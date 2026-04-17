@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.paw",
+    "module": "pantographsandwires-neoforge",
+    "version": "1.21.1-beta-0.2.1-C6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6.jar",
+          "url": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6.jar",
+          "size": 2025117,
+          "sha512": "2b4672575c6d84aa034ede7a4730a4deb5d53617ff48998afdc3c0c6970e9a5a19e3086b5c539bf6ba55199f52a90551918b97fc032e4e6151adf90f7081681e",
+          "sha256": "f6121d429768e27b66baeaee7d4c3b87e0528a0b58fe9653fc5a7f7edd49f8d9",
+          "sha1": "93157c0efb1381d314a068f872a810ed2d85aae7",
+          "md5": "7a892f4f88609cd7e38fec2ef04788d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.21.1",
+          "version": {
+            "requires": "6.0.7-159"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.21.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "slim"
+            }
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "Ponder-NeoForge-1.21.1",
+          "version": {
+            "requires": "1.0.66"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate",
+          "module": "Registrate",
+          "version": {
+            "requires": "MC1.21-1.3.0+62"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-neoforge-1.21.1",
+          "version": {
+            "requires": "1.0.6-beta-37"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-neoforge",
+          "version": {
+            "requires": "1.21.1-beta-3.0.24"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-neoforge-1.21.1",
+          "version": {
+            "requires": "4.8.4"
+          }
+        },
+        {
+          "group": "com.eliotlash.mclib",
+          "module": "mclib",
+          "version": {
+            "requires": "20"
+          }
+        },
+        {
+          "group": "org.embeddedt",
+          "module": "embeddium-1.21.1",
+          "version": {
+            "requires": "1.0.10-beta.375+mc1.21.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.21.1-neoforge",
+          "version": {
+            "requires": "19.27.0.340"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6.jar",
+          "url": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6.jar",
+          "size": 2025117,
+          "sha512": "2b4672575c6d84aa034ede7a4730a4deb5d53617ff48998afdc3c0c6970e9a5a19e3086b5c539bf6ba55199f52a90551918b97fc032e4e6151adf90f7081681e",
+          "sha256": "f6121d429768e27b66baeaee7d4c3b87e0528a0b58fe9653fc5a7f7edd49f8d9",
+          "sha1": "93157c0efb1381d314a068f872a810ed2d85aae7",
+          "md5": "7a892f4f88609cd7e38fec2ef04788d7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6-sources.jar",
+          "url": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6-sources.jar",
+          "size": 1026926,
+          "sha512": "b47833a741c30b799d3f494c0a4d967143a9c909b99a17131948bf2009e20b72c19516a77d5b0d89218154fd80c11af703b959e9ea16ef94a881487ce091ad98",
+          "sha256": "39c14d859064bae24444e34755d156f1112a21dcc9dc70ac91232fbf97f252c0",
+          "sha1": "07381e702f2f5e4eed621db2a330db776d40a72c",
+          "md5": "b63ac1d032954d48edd009ea4b4e2f91"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6-javadoc.jar",
+          "url": "pantographsandwires-neoforge-1.21.1-beta-0.2.1-C6-javadoc.jar",
+          "size": 131782,
+          "sha512": "922143d7dc81c1f4536ba590b0cba11ceeabf85fed1956302990794d521c214973a5355309d3f75a679e0f47fda7713d87246e6df1dea92230ad8bf10bad278c",
+          "sha256": "212ac1d4b668096330fe089270fe1dc65a83aeb1fa41f6b32c6ae095f28c48a2",
+          "sha1": "4cc5f626d05e3e9adc7ca16a9b57dfea99a8e324",
+          "md5": "4b59603dca02efb3474d7396bf6b975f"
+        }
+      ]
+    }
+  ]
+}
