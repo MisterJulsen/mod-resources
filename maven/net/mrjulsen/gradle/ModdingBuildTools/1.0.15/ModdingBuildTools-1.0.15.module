@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mrjulsen.gradle",
+    "module": "ModdingBuildTools",
+    "version": "1.0.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ModdingBuildTools-1.0.15.jar",
+          "url": "ModdingBuildTools-1.0.15.jar",
+          "size": 100002,
+          "sha512": "17f44419c4018e0dce9bae1f66b9f5279a5a247df5deb6ce2745e252c9d1b1bad705218d9d421a3edb9551ffaa1a408bdcf61bdefce3688dc2eb1306c454977b",
+          "sha256": "28e4f481357e59c0a2b7f087b57cd3cbac8439bd36911a82524845a21cc13b22",
+          "sha1": "667fb48107ec27e34f34fc7e7f1d8f005b92d699",
+          "md5": "655d3bfdaed87790d537b65daa841a5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ModdingBuildTools-1.0.15.jar",
+          "url": "ModdingBuildTools-1.0.15.jar",
+          "size": 100002,
+          "sha512": "17f44419c4018e0dce9bae1f66b9f5279a5a247df5deb6ce2745e252c9d1b1bad705218d9d421a3edb9551ffaa1a408bdcf61bdefce3688dc2eb1306c454977b",
+          "sha256": "28e4f481357e59c0a2b7f087b57cd3cbac8439bd36911a82524845a21cc13b22",
+          "sha1": "667fb48107ec27e34f34fc7e7f1d8f005b92d699",
+          "md5": "655d3bfdaed87790d537b65daa841a5d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ModdingBuildTools-1.0.15-sources.jar",
+          "url": "ModdingBuildTools-1.0.15-sources.jar",
+          "size": 6457,
+          "sha512": "7f25450c653d24679cdea3bbb3cebb3f32abd9e1073cecc2e6fa36773c3c39fd5541155591ebdbe0040277838f02eb2f1f3ad9e3db4a8d7cccc8609020403bb7",
+          "sha256": "a512f8b8e581812280418f41b38772686cd658a2b1444122266b592b579fd889",
+          "sha1": "0f90e20b8888c942ecdb694017983b3fbb880ee6",
+          "md5": "92f7e386c67c16c2cc481c3672176ff9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ModdingBuildTools-1.0.15-javadoc.jar",
+          "url": "ModdingBuildTools-1.0.15-javadoc.jar",
+          "size": 261,
+          "sha512": "505ab1b179374dab694168262b885688cff77b60a66c49b8c8def0460ac42f79442f190bf537630d5108f889b08111c6801fcc81812e91734995f49047bf0bc0",
+          "sha256": "8290782ed98c4fdc1c0b44c5aea829631e3d1e4e419c9aa1945d205708635619",
+          "sha1": "561d07c2f8bbe11ce62a5062de4d45cea889ff44",
+          "md5": "9c04ce0cfb6141e87866e11fbc04b8d1"
+        }
+      ]
+    }
+  ]
+}
