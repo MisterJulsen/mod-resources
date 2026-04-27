@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-forge",
+    "version": "1.20.1-beta-3.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.25.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.25.jar",
+          "size": 2609347,
+          "sha512": "8b1a2e30b3b87d84c1f9000ab98aae66af61aaaed98269583c3a9f07e0f4210ab3363cb72a78a42a209056fec11cd11a24d160597ccf9aef1a821d4da3c49cfc",
+          "sha256": "4c45436f785bf32bab50f38e3da3b6d25f5cc4bfd9bae61d8d724aa7bec3ae41",
+          "sha1": "d2db5c1d872a7bb460c774b712ba9c1bc65b7a00",
+          "md5": "69a369420fd75bfd1c67f3fb5ca067c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.25.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.25.jar",
+          "size": 2609347,
+          "sha512": "8b1a2e30b3b87d84c1f9000ab98aae66af61aaaed98269583c3a9f07e0f4210ab3363cb72a78a42a209056fec11cd11a24d160597ccf9aef1a821d4da3c49cfc",
+          "sha256": "4c45436f785bf32bab50f38e3da3b6d25f5cc4bfd9bae61d8d724aa7bec3ae41",
+          "sha1": "d2db5c1d872a7bb460c774b712ba9c1bc65b7a00",
+          "md5": "69a369420fd75bfd1c67f3fb5ca067c7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.25-sources.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.25-sources.jar",
+          "size": 851545,
+          "sha512": "20e1184993aa2003247aed0d21927b660363baa1d8373561da0d860c86483719db7d08b9544b288bdf070958a2cfb49c3412b325d4f157ff887c39f291a33429",
+          "sha256": "062f02227e7b239cdc5ceb060842a5254963b83d4c9306a5aeee88c9bfb09194",
+          "sha1": "58d203836a11de3be2a2c7fe51cc62d93ee341f1",
+          "md5": "bd8bbf090bacf89add369dcd77eca6aa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.25-javadoc.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.25-javadoc.jar",
+          "size": 177063,
+          "sha512": "cae3bf266d3ff6796c6815fa31f6a33101a9443544ff48ef5e91b9a6116ef6ca55756ba7911a4a35c99c37db33948a73a42c4152118e228645ebcbd394e59166",
+          "sha256": "30d651e97ef74ffb0701bd9db4e479aecd6f1f630a8397730b730e61d57b5c06",
+          "sha1": "548638d209b62b9b8e0f6e096f020a043ba65521",
+          "md5": "d65db35d2d7782d0a57cd20794f258f1"
+        }
+      ]
+    }
+  ]
+}
