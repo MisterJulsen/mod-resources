@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-forge",
+    "version": "1.20.1-beta-3.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.26.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.26.jar",
+          "size": 2610262,
+          "sha512": "c7d415a2eaea17d580b92a9cebbfd67d3c7cf71dacbbecd2c19d219ed31e7c6b0ef0230d5c2906ea2796a8be0d9fe3bbd1c72747e7ff6e8375d19bdc18a9698b",
+          "sha256": "60b2c8aeba76f9bef74e8b3e896f05338c57378eecaaa73f0190be978722f26a",
+          "sha1": "a8bcfecafe3ecf61c55a8c21133ca179a5b7ad4e",
+          "md5": "13507806fc1216d9162c2e0af899a93b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.26.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.26.jar",
+          "size": 2610262,
+          "sha512": "c7d415a2eaea17d580b92a9cebbfd67d3c7cf71dacbbecd2c19d219ed31e7c6b0ef0230d5c2906ea2796a8be0d9fe3bbd1c72747e7ff6e8375d19bdc18a9698b",
+          "sha256": "60b2c8aeba76f9bef74e8b3e896f05338c57378eecaaa73f0190be978722f26a",
+          "sha1": "a8bcfecafe3ecf61c55a8c21133ca179a5b7ad4e",
+          "md5": "13507806fc1216d9162c2e0af899a93b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.26-sources.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.26-sources.jar",
+          "size": 851807,
+          "sha512": "053902385f614853e6c6cc79001316735a1001eded5c6381ded9be4e1e2dcbf6b955c1a77c406b4db67bdbc3aec0c14fbeb1f9447f2954767debff07d11463a1",
+          "sha256": "fbe7ef0eb3d1c540521db81ef290f000670c3fd77031f4f5e110ffa0232b0779",
+          "sha1": "59441eafc25cde5011140e52f4d37f13adf9b90e",
+          "md5": "297e92d21870cb39898777c4277ad0d8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.26-javadoc.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.26-javadoc.jar",
+          "size": 177063,
+          "sha512": "2e75ef6538204d44a27e141e181c6678d578a437faedc3073c7b8fc7a6bbb7b624d39fd62ac7f3322a298bdf1a5897db0357c5cb196b849b1c50007d00a4c4b7",
+          "sha256": "b0f12e26ee5a42b3499584c0734e1ae6e430ac2ecee8885b47f660abdf67cac5",
+          "sha1": "68feb5baccb45c69526e2312d80b0409a3bf24bd",
+          "md5": "3cbfcd43f4a09d91c4e4e742d9244948"
+        }
+      ]
+    }
+  ]
+}
