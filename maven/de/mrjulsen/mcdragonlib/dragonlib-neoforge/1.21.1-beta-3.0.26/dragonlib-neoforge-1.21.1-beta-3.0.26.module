@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-neoforge",
+    "version": "1.21.1-beta-3.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-neoforge-1.21.1-beta-3.0.26.jar",
+          "url": "dragonlib-neoforge-1.21.1-beta-3.0.26.jar",
+          "size": 2098083,
+          "sha512": "c6aac14f108c0a023585bf38a1c587ec4e7c63a7659b403432e281370a3ef48d2c056831bdf0859cb7061aeca67aba9d25c10a25b74b82588426a2b0b7a5d925",
+          "sha256": "f1c9c6b808b9405b6f9fe52ca680145d015a65ad6f4c43ddf22ff7171e8f8dd4",
+          "sha1": "df416137bae1b7205965c1a47b7f466da4564fd6",
+          "md5": "141ae00c9ccf236cdfdb6d0eee7c8157"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.6"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-neoforge",
+          "version": {
+            "requires": "21.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-neoforge-1.21.1-beta-3.0.26.jar",
+          "url": "dragonlib-neoforge-1.21.1-beta-3.0.26.jar",
+          "size": 2098083,
+          "sha512": "c6aac14f108c0a023585bf38a1c587ec4e7c63a7659b403432e281370a3ef48d2c056831bdf0859cb7061aeca67aba9d25c10a25b74b82588426a2b0b7a5d925",
+          "sha256": "f1c9c6b808b9405b6f9fe52ca680145d015a65ad6f4c43ddf22ff7171e8f8dd4",
+          "sha1": "df416137bae1b7205965c1a47b7f466da4564fd6",
+          "md5": "141ae00c9ccf236cdfdb6d0eee7c8157"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-neoforge-1.21.1-beta-3.0.26-sources.jar",
+          "url": "dragonlib-neoforge-1.21.1-beta-3.0.26-sources.jar",
+          "size": 328661,
+          "sha512": "4e7865a24c1e48888f855c7dfbfbe63be82bf40aa93ecbfd7b9a35b48d579e493d814dd82506ca5650c72a268c2f732beedb473b0dcbff682d813522be9c030f",
+          "sha256": "9635bc174b902c98535ff70326050c2164d0486c7b66005f8978577a4207fd8d",
+          "sha1": "a3fe55e6be3571109017a9d48ac4bddf479f08c3",
+          "md5": "00898691a907aa8b6401371a352c1698"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-neoforge-1.21.1-beta-3.0.26-javadoc.jar",
+          "url": "dragonlib-neoforge-1.21.1-beta-3.0.26-javadoc.jar",
+          "size": 207203,
+          "sha512": "22c8e6496344b1eae4c86194e42f4f8b3ba66892f5195f42ec5071b425dee7d088968afa9b88bbd4333b5d5feb7334c6beb48c28dda0417b7724127e83539f31",
+          "sha256": "9be94402528b97fe9b703462a78ce7a861ca9eb4d1a06a564c73e25d85572727",
+          "sha1": "03b2c4781c18f9ecbf05ba620203562f3fded86e",
+          "md5": "6c3bc2b79142c642d4e6c8199b079c59"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-neoforge-1.21.1-beta-3.0.26-dev-shadow.jar",
+          "url": "dragonlib-neoforge-1.21.1-beta-3.0.26-dev-shadow.jar",
+          "size": 1463517,
+          "sha512": "b68296b83a5c45af95b780263e38cf710e4c65cd2c99c58eb8f5829cffab3fb0e887d7174b29786a7ad9097fae8fdf9ae69c98b2cf9e0fa43aa1d9d29c18ac1b",
+          "sha256": "5e45d6542364010ffaac1f620db90787d9689215ff194e97aa9abbb96caeb820",
+          "sha1": "55b7334e295249735f49d01ed126c2f3148e8e54",
+          "md5": "51e9c260aa817be73ee8c7c77309daa6"
+        }
+      ]
+    }
+  ]
+}
