@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-fabric",
+    "version": "1.20.1-beta-3.0.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-fabric-1.20.1-beta-3.0.28.jar",
+          "url": "dragonlib-fabric-1.20.1-beta-3.0.28.jar",
+          "size": 2826599,
+          "sha512": "9ec5d184e4461c7320df855b22feeee9cee3caf7e767efc102d5d743005efa0fb660223db79ec4ec1c489d34f6d77b4c56af872272981070388fa86075560189",
+          "sha256": "069786b5f30d93310a90559cd23ae50fd967699df3d63669f2cb6a6eaafcac4c",
+          "sha1": "3e2c0c1d8cc9751873bd1df7644ab2a7ea3a8375",
+          "md5": "47a8b34f114c5d9a73b7eb9d39b60604"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.90.4+1.20.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-fabric-1.20.1-beta-3.0.28.jar",
+          "url": "dragonlib-fabric-1.20.1-beta-3.0.28.jar",
+          "size": 2826599,
+          "sha512": "9ec5d184e4461c7320df855b22feeee9cee3caf7e767efc102d5d743005efa0fb660223db79ec4ec1c489d34f6d77b4c56af872272981070388fa86075560189",
+          "sha256": "069786b5f30d93310a90559cd23ae50fd967699df3d63669f2cb6a6eaafcac4c",
+          "sha1": "3e2c0c1d8cc9751873bd1df7644ab2a7ea3a8375",
+          "md5": "47a8b34f114c5d9a73b7eb9d39b60604"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-fabric-1.20.1-beta-3.0.28-sources.jar",
+          "url": "dragonlib-fabric-1.20.1-beta-3.0.28-sources.jar",
+          "size": 662848,
+          "sha512": "f7efde06a84efb8f149491b860487c64249d36ec000d7930c7edc53d4fc8fee0aaf418826e787f8e18b2d45bad53df206b8b34dca486f3578306bb74f05a0f76",
+          "sha256": "d163a9118e639944b6425898e0136b318ff1b9a8319a0e17961744c7c5f646f1",
+          "sha1": "d17ac286c1d645b879e8bb21a4d97e570b6c69a0",
+          "md5": "ca33fddee4babfa7e15c99910702dd4e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-fabric-1.20.1-beta-3.0.28-javadoc.jar",
+          "url": "dragonlib-fabric-1.20.1-beta-3.0.28-javadoc.jar",
+          "size": 296775,
+          "sha512": "a3eea7a85f747eadc3d22752d426852ea0ffaa24cb7118ef532920d60163a34c3359c63af30ef509510d2319c021b36de443f27ce3cc2cf1fc39689b8f38adbc",
+          "sha256": "68ddc7ce79605a37f3b809c04257851b0e20d45ab51f315272eedb6155a4e40f",
+          "sha1": "e0b5b056a7abd46e7d6c74358017f7576eb246f5",
+          "md5": "f63f599eebed9854a0d9b5c3cae52034"
+        }
+      ]
+    }
+  ]
+}

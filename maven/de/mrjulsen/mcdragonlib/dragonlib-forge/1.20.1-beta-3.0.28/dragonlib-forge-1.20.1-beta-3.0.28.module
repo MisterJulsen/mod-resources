@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-forge",
+    "version": "1.20.1-beta-3.0.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.28.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.28.jar",
+          "size": 2619695,
+          "sha512": "290fc29351665a56a5abb166b0968784062129fb450a0ef6f603342b223fafdc348ed790b938e5d3dea1539a4713f7098df950b398571a6b88bb74f5606f34d8",
+          "sha256": "1894e875a248e8b5527c3e6806af75cbb797ab8888ed0b0c7a5b186fe661c7bb",
+          "sha1": "9d861191d34567e0eee7e8c9a924307772b2fe84",
+          "md5": "aed5e7d3bb1a08b35fa58e102fd10c9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.28.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.28.jar",
+          "size": 2619695,
+          "sha512": "290fc29351665a56a5abb166b0968784062129fb450a0ef6f603342b223fafdc348ed790b938e5d3dea1539a4713f7098df950b398571a6b88bb74f5606f34d8",
+          "sha256": "1894e875a248e8b5527c3e6806af75cbb797ab8888ed0b0c7a5b186fe661c7bb",
+          "sha1": "9d861191d34567e0eee7e8c9a924307772b2fe84",
+          "md5": "aed5e7d3bb1a08b35fa58e102fd10c9e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.28-sources.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.28-sources.jar",
+          "size": 854461,
+          "sha512": "9169140fe3966f8eb7a9d85fde3276d89a91334fe5586683920361a8d4f13c9cbe1fe40e362ef8023563e146195f06925cea56b3dd7d9bcec3a1dcb38bc6b375",
+          "sha256": "f49d7bfd0687420de0eaf50ab146b1d192d3cb9ba61ee5537c90836d97967cc6",
+          "sha1": "57e52860733dec10b77e434756fe2f9b873c0a75",
+          "md5": "bb728ceeb8a4fea7a66b97d41b7c33f2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-beta-3.0.28-javadoc.jar",
+          "url": "dragonlib-forge-1.20.1-beta-3.0.28-javadoc.jar",
+          "size": 182947,
+          "sha512": "4f82a2d6b457f5abbace277b00c55ddf506fa6b4452ed9ea61c977903d024312be0be9f37ce4ea23b825f96bb3c986f8b2c070d26d3c4a9562a7800a6c52bf4e",
+          "sha256": "4f6aadb90b35351089182a5ff8a41d6620286d61fb1e7b80d5915da2a78a59c3",
+          "sha1": "c4968ac563560766988764ba3e6170910ef64ce2",
+          "md5": "95ad9d71cd1192e6fed24b7809fbd222"
+        }
+      ]
+    }
+  ]
+}
