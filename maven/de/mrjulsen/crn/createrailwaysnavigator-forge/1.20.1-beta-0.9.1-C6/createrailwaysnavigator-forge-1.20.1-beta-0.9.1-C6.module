@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.crn",
+    "module": "createrailwaysnavigator-forge",
+    "version": "1.20.1-beta-0.9.1-C6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6.jar",
+          "url": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6.jar",
+          "size": 2062425,
+          "sha512": "e85568036c218c8e6446bd4d0adf5f909e806ccc7b895b33f8117dec66b9ecf3104e2bf26660ebba86f388697a1b6d4015a42c7c40c9e9d34dee2f0e2fd6feae",
+          "sha256": "af2425223fb3f2e2cc3acf78a14b8f3725520faae00ba5764140a8d5d6541b3f",
+          "sha1": "8293dea7770d1513783fb76ee5c03413b65d9237",
+          "md5": "d3e49b8405117a0986463c2bd231b269"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-forge",
+          "version": {
+            "requires": "1.20.1-beta-3.0.21"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.20.1",
+          "version": {
+            "requires": "6.0.7-281"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.20.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "slim"
+            }
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "Ponder-Forge-1.20.1",
+          "version": {
+            "requires": "1.0.91"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate",
+          "module": "Registrate",
+          "version": {
+            "requires": "MC1.20-1.3.3"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-forge-1.20.1",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "time-control-303570",
+          "version": {
+            "requires": "5095704"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "configured-457570",
+          "version": {
+            "requires": "5180900"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6.jar",
+          "url": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6.jar",
+          "size": 2062425,
+          "sha512": "e85568036c218c8e6446bd4d0adf5f909e806ccc7b895b33f8117dec66b9ecf3104e2bf26660ebba86f388697a1b6d4015a42c7c40c9e9d34dee2f0e2fd6feae",
+          "sha256": "af2425223fb3f2e2cc3acf78a14b8f3725520faae00ba5764140a8d5d6541b3f",
+          "sha1": "8293dea7770d1513783fb76ee5c03413b65d9237",
+          "md5": "d3e49b8405117a0986463c2bd231b269"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6-sources.jar",
+          "url": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6-sources.jar",
+          "size": 1272843,
+          "sha512": "538437d7b69117d5d7d0565749a5a92dce0f86edbf1bb4cb95ad27557a614abeb9edec19e461282d86d71af90d923a91455ade86e57875c242d417066d04533a",
+          "sha256": "7927dd71ce3999ce9577703f47411b437690d6b3e58a8cfabe1a62ae41b8ca3e",
+          "sha1": "9395b588fc6c2fe6f0c4b9700ff02b13221fdfd5",
+          "md5": "a396732121b7c52c8be704f199b43334"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6-javadoc.jar",
+          "url": "createrailwaysnavigator-forge-1.20.1-beta-0.9.1-C6-javadoc.jar",
+          "size": 118845,
+          "sha512": "a42330035e9558c927acac3885c4b63363bf99b0c86dbf2f8c0aba510bba4bd1eb00fbb545477540cf37637ba3eae34eaefb68e24c6e38b61ef1821ee0ffa3f7",
+          "sha256": "ad5901a12a9b1692a5c2ce5e2ebb1297de7326e73e67ba0a5044d127addaddf5",
+          "sha1": "a2e687447b1b3ab3fa0b4470b456fff0927caf95",
+          "md5": "0c55ef9cd176a4932933f14cd8e49835"
+        }
+      ]
+    }
+  ]
+}
