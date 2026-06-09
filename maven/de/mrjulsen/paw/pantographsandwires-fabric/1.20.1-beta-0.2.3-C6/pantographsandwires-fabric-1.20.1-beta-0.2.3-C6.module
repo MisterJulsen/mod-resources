@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.paw",
+    "module": "pantographsandwires-fabric",
+    "version": "1.20.1-beta-0.2.3-C6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6.jar",
+          "url": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6.jar",
+          "size": 2458969,
+          "sha512": "8e3ff309dec0dff97a5ee38a459a3a358e264618330372eebb260e12324c13cdd64dc0a80c2fd1dafb2f0c7d07cfa06b5b6f2e892b7a7eb18e057e2d82a3f756",
+          "sha256": "a3758ef90dd51be0c219f732daafc1c5370f58646837db68d9dffd48d5478433",
+          "sha1": "bf1593e579f4f801b065c8a2b07e789463d3da80",
+          "md5": "d03dd38d1bc49035029d09dd619cc32d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.90.4+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-fabric",
+          "version": {
+            "requires": "1.20.1-beta-3.0.28"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.20.1",
+          "version": {
+            "requires": "4.7"
+          }
+        },
+        {
+          "group": "com.eliotlash.mclib",
+          "module": "mclib",
+          "version": {
+            "requires": "20"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc1.20.1-0.5.13-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "indium",
+          "version": {
+            "requires": "1.0.36+mc1.20.1"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.0+build.1734-mc1.20.1"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "copycats",
+          "version": {
+            "requires": "3.0.7+mc.1.20.1-fabric"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.20.0.106"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6.jar",
+          "url": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6.jar",
+          "size": 2458969,
+          "sha512": "8e3ff309dec0dff97a5ee38a459a3a358e264618330372eebb260e12324c13cdd64dc0a80c2fd1dafb2f0c7d07cfa06b5b6f2e892b7a7eb18e057e2d82a3f756",
+          "sha256": "a3758ef90dd51be0c219f732daafc1c5370f58646837db68d9dffd48d5478433",
+          "sha1": "bf1593e579f4f801b065c8a2b07e789463d3da80",
+          "md5": "d03dd38d1bc49035029d09dd619cc32d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-sources.jar",
+          "url": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-sources.jar",
+          "size": 67980,
+          "sha512": "bdc2b2fa1608d8fd006332f7d7642d2345c702893986fbc3d0a92eaa426d226d423786e94f40279a78ce383ebfdf0c7427c6d318dd55eeefc51faddc44d8f491",
+          "sha256": "3a16b930b8ceb3c59587c7148033f89678d9bfc2acc5b905c39b07eb2d086d31",
+          "sha1": "f31a2f21da382609a66b3bad689e125825637dd4",
+          "md5": "9869e61962d84bdd63fcfd73ec66e25b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-javadoc.jar",
+          "url": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-javadoc.jar",
+          "size": 183533,
+          "sha512": "3f3fec729cd01a54108c8b4321fcfb920d80db364c960e086e007ef269a9f834bdbbba88b7c5d2c1ddf903f53178718ce298f024c2511e4406ec33aeeb8fb8d9",
+          "sha256": "123e951579e02c72a73325a7a415b22c5d6e242145f646a17c7110593ebf4be0",
+          "sha1": "1583d3f0a30763cd9c69eecdd55f5ded27c0a10b",
+          "md5": "8919a74d4682d405f0e8dd259618fc54"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-dev-shadow.jar",
+          "url": "pantographsandwires-fabric-1.20.1-beta-0.2.3-C6-dev-shadow.jar",
+          "size": 1450498,
+          "sha512": "865abe07aab03a81df56d70f8b23138a291b44c03fe4d5ecbbf81cdf3f2e65fc7f3eace4e9a7354b9b4b34e6d33feeff471f94d0338f3616dbd8699b79fe93d5",
+          "sha256": "945ad5a9b8a6b214b9b132f098c8ac4acc1d34e42eb1ddac79c83f86b8aafd27",
+          "sha1": "e3b405711bcab8b4b02830b351eefbb2a3c1bd10",
+          "md5": "e960813c49148dd1079d4bfa76abc6f4"
+        }
+      ]
+    }
+  ]
+}
