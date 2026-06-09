@@ -3,11 +3,11 @@
   <groupId>de.mrjulsen.paw</groupId>
   <artifactId>pantographsandwires-neoforge</artifactId>
   <versioning>
-    <latest>1.21.1-beta-0.2.2-C6</latest>
-    <release>1.21.1-beta-0.2.2-C6</release>
+    <latest>1.21.1-beta-0.2.3-C6</latest>
+    <release>1.21.1-beta-0.2.3-C6</release>
     <versions>
-      <version>1.21.1-beta-0.2.2-C6</version>
+      <version>1.21.1-beta-0.2.3-C6</version>
     </versions>
-    <lastUpdated>20260419190600</lastUpdated>
+    <lastUpdated>20260609213223</lastUpdated>
   </versioning>
 </metadata>
