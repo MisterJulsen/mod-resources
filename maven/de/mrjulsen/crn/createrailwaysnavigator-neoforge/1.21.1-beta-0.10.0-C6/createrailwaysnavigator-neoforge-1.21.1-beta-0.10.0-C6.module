@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.crn",
+    "module": "createrailwaysnavigator-neoforge",
+    "version": "1.21.1-beta-0.10.0-C6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+          "url": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+          "size": 4680276,
+          "sha512": "70a0894de0393c9235b875c2e757d1ea3192e4e66fb69d99d19108f8670c381d2dfb85de5393c9e8bcccfe547134765c81b9a1261c5723dedf1da50786ac5bd3",
+          "sha256": "1ce27fbcd80834f82f37429878901ca00496ac0e9c1a477a7b3dd4e12b4e41d4",
+          "sha1": "bf0ff70b421fb6fdb899f21e8e2899bbc9bd5e33",
+          "md5": "b4edef96bb952c9c882e81ecdc15f01e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.simibubi.create",
+          "module": "create-1.21.1",
+          "version": {
+            "requires": "6.0.10-280"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "create-1.21.1",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "slim"
+            }
+          }
+        },
+        {
+          "group": "net.createmod.ponder",
+          "module": "ponder-neoforge",
+          "version": {
+            "requires": "1.0.82+mc1.21.1"
+          }
+        },
+        {
+          "group": "com.tterrag.registrate",
+          "module": "Registrate",
+          "version": {
+            "requires": "MC1.21-1.3.0+67"
+          }
+        },
+        {
+          "group": "dev.engine-room.flywheel",
+          "module": "flywheel-neoforge-1.21.1",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-neoforge",
+          "version": {
+            "requires": "1.21.1-beta-3.0.28"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+          "url": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6.jar",
+          "size": 4680276,
+          "sha512": "70a0894de0393c9235b875c2e757d1ea3192e4e66fb69d99d19108f8670c381d2dfb85de5393c9e8bcccfe547134765c81b9a1261c5723dedf1da50786ac5bd3",
+          "sha256": "1ce27fbcd80834f82f37429878901ca00496ac0e9c1a477a7b3dd4e12b4e41d4",
+          "sha1": "bf0ff70b421fb6fdb899f21e8e2899bbc9bd5e33",
+          "md5": "b4edef96bb952c9c882e81ecdc15f01e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6-sources.jar",
+          "url": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6-sources.jar",
+          "size": 1471827,
+          "sha512": "9d6454c7e17cbcdde576f761e178ca2334cc2f4510b480e080c87be4dc70dd1d7041d4c562c65306ca0ea3ebc000077b4b82d28fe39413aeb5588bf675005c0e",
+          "sha256": "7036e17985ca9c599760b519b46865e057dec208d6cb7a5a46f2f30cecd66968",
+          "sha1": "2e7f1ffdb51dd4094987873fa4b275fa541daaa0",
+          "md5": "40c1d4c556d395cf58e9bcaeae878050"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6-javadoc.jar",
+          "url": "createrailwaysnavigator-neoforge-1.21.1-beta-0.10.0-C6-javadoc.jar",
+          "size": 119434,
+          "sha512": "3eca0fbbb5bcc2830d17a928ffdb63150901afa0970cac3739afedd225f87c88ac1dfc5690a6858f72cf9ebd0b139f139a970859c3c4a05eb0a1bcadfb2cb896",
+          "sha256": "f164884026f3f3ba2b382df44c1af7787e855edbe128fdd548fbc2ddda8cf00c",
+          "sha1": "c81604e9c3637b3ed21a68753623ad2c36d7db5c",
+          "md5": "c399c2e962dd89075660a6ad0c736ba8"
+        }
+      ]
+    }
+  ]
+}
