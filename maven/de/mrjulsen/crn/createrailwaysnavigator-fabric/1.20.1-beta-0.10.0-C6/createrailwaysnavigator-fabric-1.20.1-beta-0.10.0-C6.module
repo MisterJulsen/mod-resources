@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.crn",
+    "module": "createrailwaysnavigator-fabric",
+    "version": "1.20.1-beta-0.10.0-C6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
+          "size": 4668718,
+          "sha512": "bf5056cd9b6b4ce8b99fbafb4d9e3e2d0ec2a8cc4043674c11a14ebb5613a485fa0335b88c803c7cc5cee4fe27e8de866d56220790b159487492da2439e8d5b7",
+          "sha256": "c4546f472b06d9b3b178f9763d244e2905883eb789297e6e16b6309f2b0fa168",
+          "sha1": "53e20a74a3a1196c5d2c3ee82820cca9b5e8e0fa",
+          "md5": "84d9976242581890d4b53deda9235389"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty.compression",
+          "module": "jetty-compression-server",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-server",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.compression",
+          "module": "jetty-compression-gzip",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.compression",
+          "module": "jetty-compression-common",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-http",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-io",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-util",
+          "version": {
+            "requires": "12.1.13"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.90.4+1.20.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "9.1.12"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "fuzs.forgeconfigapiport",
+          "module": "forgeconfigapiport-fabric",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "de.mrjulsen.mcdragonlib",
+          "module": "dragonlib-fabric",
+          "version": {
+            "requires": "1.20.1-beta-3.0.28"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric",
+          "version": {
+            "requires": "6.0.8.1+build.1744-mc1.20.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric",
+          "version": {
+            "requires": "15.20.0.106"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6.jar",
+          "size": 4668718,
+          "sha512": "bf5056cd9b6b4ce8b99fbafb4d9e3e2d0ec2a8cc4043674c11a14ebb5613a485fa0335b88c803c7cc5cee4fe27e8de866d56220790b159487492da2439e8d5b7",
+          "sha256": "c4546f472b06d9b3b178f9763d244e2905883eb789297e6e16b6309f2b0fa168",
+          "sha1": "53e20a74a3a1196c5d2c3ee82820cca9b5e8e0fa",
+          "md5": "84d9976242581890d4b53deda9235389"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-sources.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-sources.jar",
+          "size": 29769,
+          "sha512": "142cf91db171ccc6b05bf8f8da7ce8407b43fba509d17a520133c0a62af804d98b14368e82d1339df401ddfc29e11371453798af9cb0f9358f053c9e02494e0f",
+          "sha256": "2fffcd65ab843fbb057a992391a8714f1d6144e12d81f3ab2579226edd66fc7c",
+          "sha1": "6b79fd2f3d3f21cd26486c4e63197aee8a3054e6",
+          "md5": "338a65b034b2ca3ec9c025c212ab3f14"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-javadoc.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-javadoc.jar",
+          "size": 116496,
+          "sha512": "f2071eb0e72ef4f99eb323ef9bd4a73839cb310c12a422e4cfb64cc74126e9dd36e8f4689b8c14b20a020dbf42a2292213b5472f72a889d416d0724c8812d28f",
+          "sha256": "f35fa69398330fdb384f755fd4607f02c52d4bccc2a32ec53fee86814d3f9845",
+          "sha1": "13cc1cd49578792edb483c9183acaab6ecbe8a4f",
+          "md5": "b1c8e4a22c0f6f0304a8c205d7bc30b4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-dev-shadow.jar",
+          "url": "createrailwaysnavigator-fabric-1.20.1-beta-0.10.0-C6-dev-shadow.jar",
+          "size": 2476842,
+          "sha512": "bc99a0225e559d9f5679aeb0fcc4fe931dfd74719c6ef05b2e22f27f6104587d6edff7fda1138b357c7a810a091d91dbc622ab898256261b9b25b516992d5b80",
+          "sha256": "70e21356163756218a24964df910acdabc67917fefe3551fe333d82ae22a202a",
+          "sha1": "4b8c0b65b6d745478b3f83aaed5f94d2cb2d6912",
+          "md5": "1e558e86ef79d81a191f7d6e8c4bc6f4"
+        }
+      ]
+    }
+  ]
+}
