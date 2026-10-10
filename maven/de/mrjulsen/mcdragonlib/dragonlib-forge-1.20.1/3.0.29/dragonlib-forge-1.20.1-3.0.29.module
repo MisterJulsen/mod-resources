@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.mrjulsen.mcdragonlib",
+    "module": "dragonlib-forge-1.20.1",
+    "version": "3.0.29",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-3.0.29.jar",
+          "url": "dragonlib-forge-1.20.1-3.0.29.jar",
+          "size": 2631748,
+          "sha512": "4acaea7fbb1809f9a45fa49c9acd0a12c9b4de325c1ce4ba35a22b1398316df92884ef0312e9c1a0c32426cd65d1ed5ce555f499814a5f0e22a8555e1322649b",
+          "sha256": "af750b8d04c795aedeebd1eba1139f68b6543bf03e8314d8a22d040eb2bea4c6",
+          "sha1": "e072d5b2addb45892d0a4963db513577010962c9",
+          "md5": "bea93deda1b48533b3bda18d9e9ab34b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.5.3"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-forge",
+          "version": {
+            "requires": "9.1.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-3.0.29.jar",
+          "url": "dragonlib-forge-1.20.1-3.0.29.jar",
+          "size": 2631748,
+          "sha512": "4acaea7fbb1809f9a45fa49c9acd0a12c9b4de325c1ce4ba35a22b1398316df92884ef0312e9c1a0c32426cd65d1ed5ce555f499814a5f0e22a8555e1322649b",
+          "sha256": "af750b8d04c795aedeebd1eba1139f68b6543bf03e8314d8a22d040eb2bea4c6",
+          "sha1": "e072d5b2addb45892d0a4963db513577010962c9",
+          "md5": "bea93deda1b48533b3bda18d9e9ab34b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-3.0.29-sources.jar",
+          "url": "dragonlib-forge-1.20.1-3.0.29-sources.jar",
+          "size": 856851,
+          "sha512": "b319859cfd0f15237d02669f955748bd439f33cb3209501c2df5d939a3a01871de7a480ddf56500bf22df925042ce395a454d22650012b304624808792eaae9e",
+          "sha256": "9c277c85d14b0f19cd31fd820a0a51d70a34fecde93153c6e4557113b1ad22e7",
+          "sha1": "9cd899f7b83fed83e96be0325624ad9b1adced3d",
+          "md5": "0dd6fe51bfee5590638289726e690f7d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dragonlib-forge-1.20.1-3.0.29-javadoc.jar",
+          "url": "dragonlib-forge-1.20.1-3.0.29-javadoc.jar",
+          "size": 169620,
+          "sha512": "0817a34653aa61de836727b67cc2949c5b934da4ec0b212604b045aa27b538116a855361e302294d83d36c80811d32947f13ef7266e22bd53542a87081a01e73",
+          "sha256": "b0d479d282807849e32297ed26ee94f77847390d01f2faff1e860b68ef2461af",
+          "sha1": "072c693696432389868802e161101d0d09d65b0e",
+          "md5": "7f288e56965854d000d421271b219b07"
+        }
+      ]
+    }
+  ]
+}
